@@ -1,0 +1,31 @@
+{
+    "tables": [
+        "ACCOUNTS",
+        "LOYALTY_TRANSACTION",
+        "BUDGET",
+        "PROMOTION_SMS_INTEGRATION",
+        "CASES",
+        "SERVICE_ADDON_SO_MAP",
+        "CLASSES",
+        "SERVICE_ADDON_TO_MAP",
+        "CUSTOMERS",
+        "STORE_TRAFFIC",
+        "DELETED_RECORDS",
+        "SUPPORT_PERSON_MAP",
+        "DELIVERY_PERSON",
+        "SYSTEM_NOTES",
+        "DEPARTMENTS",
+        "SYSTEM_NOTES_PRICE",
+        "EMPLOYEES",
+        "TRANSACTIONS",
+        "ITEMS",
+        "TRANSACTION_LINES",
+        "ITEM_LOCATION_MAP",
+        "VENDORS",
+        "LOCATIONS",
+        "ns2_couponCode",
+        "ns2_tranPromotion",
+        "ns2_promotionCode",
+        "ns2_transactionLine"
+    ]
+}
