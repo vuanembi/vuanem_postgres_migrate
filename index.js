@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '.env.dev' });
+require('dotenv').config();
 const fs = require('fs/promises');
 const { BigQuery } = require('@google-cloud/bigquery');
 const { Storage } = require('@google-cloud/storage');
