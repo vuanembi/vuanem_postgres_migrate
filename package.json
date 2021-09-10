@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "extract": "node extract.js",
+    "extract": "node index.js extract",
+    "load": "node index.js load",
+    "misc": "node index.js misc",
     "download": "gsutil -m cp -r gs://vnbi-temp-bucket/NetSuite_dump/ ."
   },
   "keywords": [],
@@ -13,7 +15,9 @@
   "dependencies": {
     "@google-cloud/bigquery": "^5.9.0",
     "@google-cloud/storage": "^5.14.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "pg": "^8.7.1",
+    "pg-copy-streams": "^6.0.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
